@@ -11,22 +11,21 @@
 			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
 		</div>
 		<div class="maincontent">
+			<div id="show"></div>
 			<script>
-				var myname = "Syed Zaman Mostafiz.";
-				document.write("My Name is "+myname);
-				document.write("<br/>");
-				var a = 10;
-				var b = 10;
-				var sum = a+b;
-				var sub = a-b;
-				var mul = a*b;
-				var div = a/b;
-				document.write("Sum is = "+sum+" And Multi is = "+mul);
+				//innerHTML, document.write(), window.alert(), console.log
+				var a = "Syed Zaman ";
+				var b = "Mostafiz";
+				var myname = a+b;
+				document.getElementById("show").innerHTML = myname;
+				document.write(myname);
+				window.alert(myname);
+				console.log(myname);
+				
+				
 			
 			</script>
-			<br><a href="Part-03.html">Part-03 Click Here</a>
-
-	
+			<br><a href="Part-05.html">Part-05 Click Here</a>
 		</div>
 
 		<div class="footer">
