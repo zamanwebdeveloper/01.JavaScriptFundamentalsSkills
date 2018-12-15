@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Fundamentals</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<section class="content">
+		<div class="header">
+			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
+		</div>
+		<div class="maincontent">
+			<script>
+				// var myname = new String("Syed Zaman Mostafiz");
+				// var mynum = new Number(3366991313);
+				// document.write(typeof (myname)+"<br>");
+				// document.write(typeof (mynum)+"<br>");
+
+				var person ={
+				    firstName: "Syed Zaman ",
+				    lastName: "Mostafiz",
+					age: 29,
+					func:function () {
+					return this.firstName+this.lastName;
+                    }
+				}
+				document.write(person.func()+"<br>");
+				document.write(person.age);
+			</script>
+			<br><a href="Part-09.html">Part-09 Click Here</a>
+		</div>
+
+		<div class="footer">
+			<h2><script>document.write("Zaman Web Developer")</script></h2>
+		</div>
+		
+	</section>
+
+</body>
+</html>

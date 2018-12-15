@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Fundamentals</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<section class="content">
+		<div class="header">
+			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
+		</div>
+		<div class="maincontent">
+			<script>
+				//Array
+				var arr1 = [1, 2, 3, 4];
+				var arr2 = [5, 6, 7, 8];
+				var getarr = arr1.concat(arr2);
+				document.write(getarr+"<br>");
+
+				//Sorting
+				var color = ["Green", "Blue", "Purple", "Red"];
+				document.write("Before sorting = "+color+"<br>");
+				color.sort();
+				document.write("After sorting = "+color+"<br><br>");
+
+				document.write("Ascending Number Sorting<br>")
+                var num = [10,1020,8,7,6,5,4,3,2];
+                document.write("Before sorting = "+num+"<br>");
+                function arrsort(x,y){
+                    return (x-y);
+				}
+                num.sort(arrsort);
+                document.write("After sorting = "+num+"<br><br>");
+
+                //Descending Number Sorting
+                document.write("Descending Number Sorting<br>")
+                var num = [10,1020,8,7,6,5,4,3,2];
+                document.write("Before sorting = "+num+"<br>");
+                function arrsort(x,y){
+                    return (y-x);
+                }
+                num.sort(arrsort);
+                document.write("After sorting = "+num+"<br><br>");
+
+                //length
+				document.write("Number Length<br>");
+				var num = [10, 1020, 50, 30, 80, 70, 35];
+				num[num.length]="5000";
+				document.write(num.length);
+
+                //Unshift
+                document.write("<br><br>Number Unshift<br>");
+                var num = [10, 1020, 50, 30, 80, 70, 35];
+                num.unshift(90);
+                document.write(num);
+
+                //Number pop
+                document.write("<br><br>Pop Function<br>");
+                var num = [10, 1020, 50, 30, 80, 70, 35];
+                num.pop();
+                document.write(num);
+
+
+                //Number push
+                document.write("<br><br>Push Function<br>");
+                var num = [10, 1020, 50, 30, 80, 70, 35];
+                num.push(6000);
+                document.write(num);
+				// document.write(arr1[1]);
+				// document.write(arr1[2]);
+				// document.write(arr1[3]);
+				// document.write(arr1[4]);
+				// document.write(arr1[5]);
+				// document.write(arr1[6]);
+			</script>
+			<br><a href="Part-08.html">Part-08 Click Here</a>
+		</div>
+
+		<div class="footer">
+			<h2><script>document.write("Zaman Web Developer")</script></h2>
+		</div>
+		
+	</section>
+
+</body>
+</html>
