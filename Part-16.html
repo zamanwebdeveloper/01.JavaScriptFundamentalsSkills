@@ -11,20 +11,17 @@
 			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
 		</header>
 		<section class="maincontent">
-			<div id="zaman">Click Here</div>
-			<hr>
 			<script>
-				function ZamanWebDeveloper() {
-					var a= 200;
-					this.x=300;
-					this.y=400;
-					this.z= function(){
+				function totalNum(a,b) {
+					this.x=a;
+					this.y=b;
+					this.sum= function(){
 					 	return this.x+this.y;
 					}
                 }
 
-                var lp = new ZamanWebDeveloper();
-				document.write(lp.z());
+                var tn = new totalNum(10,5);
+				document.write(tn.sum());
 			</script>
 			<br><a href="Part-16.html">Part-16 Click Here</a>
 		</section>
