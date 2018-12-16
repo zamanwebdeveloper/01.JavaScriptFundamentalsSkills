@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Fundamentals</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<section class="content">
+		<div class="header">
+			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
+		</div>
+		<div class="maincontent">
+
+			<input  id="codeText" type="text">
+			<button onclick="checkCoding()">Check</button>
+
+			<div id="show"></div>
+			<script>
+				function checkCoding() {
+				    var txt;
+				    var coding = document.getElementById("codeText").value;
+
+				    switch (coding){
+						case "Java":
+						    txt = "I Love Java";
+						    break;
+                        case "HTML":
+                            txt = "HTML Learning Completed";
+                            break;
+                        case "CSS":
+                            txt = "CSS Learning Completed";
+                            break;
+                        case "Bootstrap":
+                            txt = "Bootstrap Learning Completed";
+                            break;
+						default:
+						    txt = "Data is not Entered";
+                    }
+                    document.getElementById("show").innerHTML =txt;
+				}
+			</script>
+			<br><a href="Part-13.html">Part-13 Click Here</a>
+		</div>
+
+		<div class="footer">
+			<h2><script>document.write("Zaman Web Developer")</script></h2>
+		</div>
+		
+	</section>
+
+</body>
+</html>
