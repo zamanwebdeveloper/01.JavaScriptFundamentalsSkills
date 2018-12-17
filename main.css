@@ -1,5 +1,5 @@
 *{margin: 0; padding: 0; outline: 0;}
-body{font-family: arial; font-size: 18px; color: #444; line-height: 25px;}
+body{font-family: arial; font-size: 18px; color: #444; line-height: 25px; background: #888;}
 .content{background:#f0f0f0; width:800px; margin:0 auto;}
 .maincontent{background:#fff; margin:10px; min-height:500px; padding:5px 10px;}
 .header, .footer{text-align:center; background:#ddd; padding:#ddd;}
