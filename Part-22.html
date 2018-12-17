@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Fundamentals</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<section class="content">
+		<header class="header">
+			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
+		</header>
+		<section class="maincontent">
+			<script>
+
+
+				function timeoutTrigger() {
+				    document.getElementById("show").innerHTML="The timeout has been Trigger after 3 second";
+                }
+				var timeout;
+				function timeoutInit() {
+					timeout = setTimeout("timeoutTrigger()",3000);
+                    document.getElementById("show").innerHTML="The timeout has been Started";
+                }
+                function timeoutClear() {
+                    clearTimeout(timeout);
+                    document.getElementById("show").innerHTML="The timeout has been Cleared";
+                }
+
+			</script>
+			<div>
+				<input type="button" value="Test Timeout" onclick="timeoutInit()">
+				<input type="button" value="Clear Timeout" onclick="timeoutClear()">
+			</div>
+			<div id="show"></div>
+			<br><a href="Part-23.html">Part-23 Click Here</a>
+		</section>
+
+		<footer class="footer">
+			<h2><script>document.write("Zaman Web Developer")</script></h2>
+		</footer>
+		
+	</section>
+
+</body>
+</html>

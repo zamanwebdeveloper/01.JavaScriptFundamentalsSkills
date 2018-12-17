@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JavaScript Fundamentals</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<section class="content">
+		<header class="header">
+			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
+		</header>
+		<section class="maincontent">
+			<script>
+
+                var countdown;
+                var countdownNumber;
+                function countdownInit() {
+                    countdownNumber=600;
+                    countdownTrigger();
+                }
+				function countdownTrigger() {
+					if (countdownNumber>0){
+					    countdownNumber--;
+                        document.getElementById("show").innerHTML=countdownNumber;
+                        if (countdownNumber>0){
+                            countdown= setTimeout("countdownTrigger()",1000);
+						}
+					}
+                }
+				function countdownClear() {
+                    clearTimeout(countdown);
+                    //document.getElementById("show").innerHTML="The Countdown has been Cleared";
+                }
+
+			</script>
+			<div>
+				<input type="button" value="Start Countdown" onclick="countdownInit()">
+				<input type="button" value="Stop Countdown" onclick="countdownClear()">
+			</div>
+			<div id="show"></div>
+			<br><a href="Part-23.html">Part-23 Click Here</a>
+		</section>
+
+		<footer class="footer">
+			<h2><script>document.write("Zaman Web Developer")</script></h2>
+		</footer>
+		
+	</section>
+
+</body>
+</html>
