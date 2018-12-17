@@ -18,12 +18,29 @@
 					this.sum= function(){
 					 	return this.x+this.y;
 					}
+                    this.product= function(){
+                        return 30;
+                    }
+
                 }
 
+                function productNum(a,b) {
+                    this.x=a;
+                    this.y=b;
+                    this.product= function(){
+                        return this.x*this.y;
+                    }
+                }
+                totalNum.prototype = new productNum();
                 var tn = new totalNum(10,5);
-				document.write(tn.sum());
+				document.write(tn.sum()+"<br>");
+                tn.product= function(){
+                    return 50000;
+                }
+
+                document.write(tn.product());
 			</script>
-			<br><a href="Part-17.html">Part-17 Click Here</a>
+			<br><a href="Part-19.html">Part-19 Click Here</a>
 		</section>
 
 		<footer class="footer">

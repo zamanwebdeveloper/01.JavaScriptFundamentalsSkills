@@ -12,18 +12,18 @@
 		</header>
 		<section class="maincontent">
 			<script>
-				function totalNum(a,b) {
-					this.x=a;
-					this.y=b;
-					this.sum= function(){
-					 	return this.x+this.y;
-					}
-                }
-
-                var tn = new totalNum(10,5);
-				document.write(tn.sum());
+				function totalNum(a) {
+					this.x= 20;
+					this.y = function () {
+						return this.x + this.x;
+                    }
+				}
+				totalNum.prototype.a = 200;
+				totalNum.b = 800;
+                var tn = new totalNum();
+                document.write(totalNum.b);
 			</script>
-			<br><a href="Part-17.html">Part-17 Click Here</a>
+			<br><a href="Part-21.html">Part-21 Click Here</a>
 		</section>
 
 		<footer class="footer">
