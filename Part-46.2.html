@@ -11,16 +11,16 @@
 			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
 		</header>
 		<section class="maincontent">
+			<button onclick="myreg()">Replace</button>
+			<div id="show">My name is Syed</div>
 			<script type="text/javascript">
-				var str = "Zaman Web Developer";
-				var B64 = btoa(str);
-				document.write(B64);
-                document.write("<br>");
-
-                var decode = atob(B64);
-				document.write(decode);
+				function myreg() {
+					var str = document.getElementById("show").innerHTML;
+					var input = str.replace("Syed", "Zaman");
+                    document.getElementById("show").innerHTML= input;
+                }
 			</script>
-			<br><a href="Part-45.html">Part-45 Click Here</a>
+			<br><a href="Part-47.html">Part-47 Click Here</a>
 		</section>
 
 		<footer class="footer">

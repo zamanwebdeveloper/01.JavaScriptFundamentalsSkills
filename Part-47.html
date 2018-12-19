@@ -11,16 +11,17 @@
 			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
 		</header>
 		<section class="maincontent">
+			<button onclick="myreg()">Test Now</button>
+			<div id="str">My name is Syed</div>
+			<div id="show"></div>
 			<script type="text/javascript">
-				var str = "Zaman Web Developer";
-				var B64 = btoa(str);
-				document.write(B64);
-                document.write("<br>");
-
-                var decode = atob(B64);
-				document.write(decode);
+				function myreg() {
+                    txt = document.getElementById("str").innerHTML;
+                    document.getElementById("show").innerHTML=/e/.exec(txt);
+                    // document.getElementById("show").innerHTML=/e/.test(txt);
+                }
 			</script>
-			<br><a href="Part-45.html">Part-45 Click Here</a>
+			<br><a href="Part-48.html">Part-48 Click Here</a>
 		</section>
 
 		<footer class="footer">
