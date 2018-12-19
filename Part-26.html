@@ -11,27 +11,32 @@
 			<h2><script>document.write("Tutorials JavaScript Fundamentals")</script></h2>
 		</header>
 		<section class="maincontent">
-			<div>
-				<span id="hours"></span>:
-				<span id="minutes"></span>:
-				<span id="seconds"></span>
-			</div>
-			<script>
-				function clock() {
-
-
-				var date = new Date();
-				var hours= date.getHours();
-				var minutes= date.getMinutes();
-				var seconds= date.getSeconds();
-
-				document.getElementById("hours").innerHTML=hours;
-				document.getElementById("minutes").innerHTML=minutes;
-				document.getElementById("seconds").innerHTML=seconds;
+			<button onclick="fadeOut()">Start</button>
+			<img src="Zaman.jpg" id="myimage">
+			<script type="text/javascript">
+				var element = document.getElementById("myimage");
+				var duration = 1000;
+				var hidtime = 1000;
+				var showtime = 1000;
+				function setOpacity(value) {
+					element.style.opacity = value;
                 }
-                setInterval(clock,1000);
+                function fadeOut() {
+				    for (i=0; i<=1; i+=0.01){
+				        setTimeout("setOpacity("+(1-i)+"),i*duration");
+					}
+                    setTimeout("fadeIn()",(duration+hidtime));
+                }
+                function fadeIn() {
+                    for (i=0; i<=1; i+=0.01){
+                        setTimeout("setOpacity("+(i)+"),i*duration");
+                    }
+                    setTimeout("fadeOut()",(duration+showtime));
+
+                }
+
 			</script>
-			<br><a href="Part-26.html">Part-26 Click Here</a>
+			<br><a href="Part-27.html">Part-27 Click Here</a>
 		</section>
 
 		<footer class="footer">
