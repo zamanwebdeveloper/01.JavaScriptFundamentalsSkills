@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1856e049-eecc-4c4b-a044-19abe0e81c46" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Part-45.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part-46.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part-46.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part-47.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part-48.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part-50.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part-44.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part-44.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-49.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part-49.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,31 +18,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Part-47.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Part-47.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Part-48.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part-48.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
-            </state>
-          </provider>
+      <file leaf-file-name="Part-50.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Part-50.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -106,6 +80,8 @@
         <option value="$PROJECT_DIR$/Part-46.2.html" />
         <option value="$PROJECT_DIR$/Part-47.html" />
         <option value="$PROJECT_DIR$/Part-48.html" />
+        <option value="$PROJECT_DIR$/Part-49main.css" />
+        <option value="$PROJECT_DIR$/Part-49.html" />
       </list>
     </option>
   </component>
@@ -118,7 +94,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -132,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,7 +120,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,12 +167,13 @@
       <workItem from="1545117089168" duration="15257000" />
       <workItem from="1545145297989" duration="7615000" />
       <workItem from="1545205953098" duration="5089000" />
-      <workItem from="1545235143419" duration="4297000" />
+      <workItem from="1545235143419" duration="8170000" />
+      <workItem from="1545246215325" duration="467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82630000" />
+    <option name="totallyTimeSpent" value="86970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,9 +185,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4944356" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49284577" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -220,7 +198,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
-      <window_info id="Favorites" order="2" sideWeight="0.5055644" side_tool="true" visible="true" weight="0.24304539" />
+      <window_info id="Favorites" order="2" sideWeight="0.5071542" side_tool="true" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,27 +216,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Part-08.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part-06.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Part-06.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part-07.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
@@ -590,10 +547,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Part-48.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part-49.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part-49main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part-50.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
