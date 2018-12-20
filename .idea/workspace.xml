@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1856e049-eecc-4c4b-a044-19abe0e81c46" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Part-50.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part-49.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part-49.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-50.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part-50.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part-51.html" beforeDir="false" afterPath="$PROJECT_DIR$/Part-51.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,9 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Part-50.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Part-50.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Part-51.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Part-51.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -31,8 +35,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Part-06.html" />
-        <option value="$PROJECT_DIR$/Part-07.html" />
         <option value="$PROJECT_DIR$/Part-08.html" />
         <option value="$PROJECT_DIR$/Part-09.html" />
         <option value="$PROJECT_DIR$/Part-10.html" />
@@ -82,6 +84,8 @@
         <option value="$PROJECT_DIR$/Part-48.html" />
         <option value="$PROJECT_DIR$/Part-49main.css" />
         <option value="$PROJECT_DIR$/Part-49.html" />
+        <option value="$PROJECT_DIR$/Part-50.html" />
+        <option value="$PROJECT_DIR$/Part-51.html" />
       </list>
     </option>
   </component>
@@ -94,7 +98,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -108,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,6 +123,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,12 +172,13 @@
       <workItem from="1545145297989" duration="7615000" />
       <workItem from="1545205953098" duration="5089000" />
       <workItem from="1545235143419" duration="8170000" />
-      <workItem from="1545246215325" duration="467000" />
+      <workItem from="1545246215325" duration="1282000" />
+      <workItem from="1545291820420" duration="2429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86970000" />
+    <option name="totallyTimeSpent" value="90214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -185,10 +190,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49284577" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49125597" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -198,7 +202,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
-      <window_info id="Favorites" order="2" sideWeight="0.5071542" side_tool="true" visible="true" weight="0.24304539" />
+      <window_info id="Favorites" order="2" sideWeight="0.50874406" side_tool="true" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -216,13 +220,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Part-07.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="36" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Part-08.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -567,7 +564,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Part-50.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="32" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Part-51.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

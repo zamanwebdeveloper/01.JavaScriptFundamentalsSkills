@@ -13,34 +13,23 @@
 		<section class="maincontent">
 			<table>
 				<tr>
-					<td>Your Input</td>
-					<td><input type="text" id="getValue"></td>
+					<td>Your Email</td>
+					<td><input type="text" id="getValue" onkeyup="validateEmail"></td>
 				</tr>
-				<tr>
-					<td></td>
-					<td><input type="button" value="Check" onclick="getNumber()"></td>
-				</tr>
-				<tr>
-					<td>Result</td>
-					<td><textarea id="showValue"></textarea></td>
-				</tr>
-
 			</table>
 			<script type="text/javascript">
-				// Mango-82 Banana-980 Apple-9908
-				//802ABC973XYZ68
-				//$1 $2 $987 ABC(200)
-
-				function getNumber() {
-                    document.getElementById("showValue").value = "";
-					var getString = document.getElementById("getValue").value;
-					var result = getString.match(/\d+/g);
-					if (result != null){
-                        for (var i=0; i<result.length; i++){
-                            document.getElementById("showValue").value += result[i]+"\n";
-                        }
-                    }
+				function validateEmail() {
+					var getEmail = document.getElementById("getValue");
+					var email = getEmail.value;
+					var emailRegEx =/([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})/;
+					getEmail.style.color = "white";
+					if (emailRegEx.test(email)){
+					    getEmail.style.backgroundColor = "green";
+					}else {
+                        getEmail.style.backgroundColor = "yellow";
+					}
                 }
+
 			</script>
 			<br><a href="Part-51.html">Part-51 Click Here</a>
 		</section>
